@@ -16,7 +16,7 @@ ESP8266 wifi(EspSerial);
 
 // Go to the Project Settings (nut icon).
 
-char auth[] = "f3528af6b8bc4f09ba2ef33b03b04dbd";
+char auth[] = "";
 
 void setup()
 
@@ -30,8 +30,8 @@ void setup()
 
   delay(10);
 
-  Blynk.begin(auth, wifi, "NetworkWiFi",
-"82745498");
+  Blynk.begin(auth, wifi, "wi-fi name",
+"pass");
 
 }
 
